@@ -1,4 +1,8 @@
 # Least Squares
-The least squares algorithm to find a linear relationship between area and price of flats
-## Chart
+Linear regression for residential premises data (least squares method application).
+## Usage
+To use, download the "Main.py" file and attached data.
+## Description
+...
+## Result
 ![result](media/chart.jpg)
