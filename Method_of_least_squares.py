@@ -31,13 +31,13 @@ def main():
     sheet = "data"
 
     data = get_data(file_name, sheet)
-    U1 = data[0]
-    Y1 = data[1]
-    coefficients = least_square_fit(U1, Y1)
+    U = data[0]
+    Y = data[1]
+    coefficients = least_square_fit(U, Y)
 
     print("Result:\n\tCoefficient A =", coefficients[1], "coefficient B =", coefficients[0])
-    plt.plot(U1[1], Y1, 'o', color="royalblue", alpha=0.35, label="data", markersize=4.5)
-    plt.plot(U1[1], linear_equation(U1[1], coefficients[1], coefficients[0]), color="black",
+    plt.plot(U[1], Y, 'o', color="royalblue", alpha=0.35, label="data", markersize=4.5)
+    plt.plot(U[1], linear_equation(U[1], coefficients[1], coefficients[0]), color="black",
              alpha=0.8, linewidth=2.2, label="line of best fit")
     plt.xlabel("\nLiving space area [m2]", fontsize=14)
     plt.ylabel("Price [PLN]\n", fontsize=14)
