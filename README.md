@@ -1,4 +1,5 @@
 # System Identification
+Statistical methods applied to build mathematical models of dynamical systems from measured data
 ## Requirements
 - python 3.6
 - numpy
