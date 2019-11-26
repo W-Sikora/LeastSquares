@@ -12,7 +12,7 @@ def main():
         data = get_data(file_name, sheet)
         U1 = data[0]
         Y1 = data[1]
-        coefficients_of_linear_equation1 = least_square_fit(U1, Y1)
+        coefficients_of_linear_equation1 = least_squares_fit(U1, Y1)
         print("Result:\n\tCoefficient A =", coefficients_of_linear_equation1[1],
               "coefficient B =", coefficients_of_linear_equation1[0])
         plt.plot(U1[1], Y1, 'o', color="royalblue", alpha=0.35, label="data", markersize=4.5)
@@ -23,7 +23,7 @@ def main():
         some_data = choice(file_name, sheet, number)
         U2 = some_data[0]
         Y2 = some_data[1]
-        coefficients_of_linear_equation2 = least_square_fit(U2, Y2)
+        coefficients_of_linear_equation2 = least_squares_fit(U2, Y2)
         print("Result:\n\tCoefficient A =", coefficients_of_linear_equation2[1],
               "coefficient B =", coefficients_of_linear_equation2[0])
         plt.plot(U2[1], Y2, 'o', color="black", alpha=0.35, label="data", markersize=4.5)
