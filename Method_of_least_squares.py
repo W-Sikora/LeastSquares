@@ -17,7 +17,7 @@ def get_data(file_name, sheet):
     return np.array([column_0, column_1]), np.array(column_2)
 
 
-def least_square_fit(input_matrix, output_matrix):
+def least_squares_fit(input_matrix, output_matrix):
     return np.dot(inv(np.dot(input_matrix, input_matrix.T)), np.dot(input_matrix, output_matrix.T))
 
 
@@ -33,7 +33,7 @@ def main():
     data = get_data(file_name, sheet)
     U = data[0]
     Y = data[1]
-    coefficients = least_square_fit(U, Y)
+    coefficients = least_squares_fit(U, Y)
 
     print("Result:\n\tCoefficient A =", coefficients[1], "coefficient B =", coefficients[0])
     plt.plot(U[1], Y, 'o', color="royalblue", alpha=0.35, label="data", markersize=4.5)
