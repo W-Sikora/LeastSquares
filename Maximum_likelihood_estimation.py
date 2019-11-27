@@ -42,15 +42,21 @@ def neg_f(w):
     return - f(w)
 
 
+def probability_density(mi, sigma, x):
+    return (1 / (np.sqrt(2 * np.pi * sigma ** 2))) * np.exp(-(x - mi) ** 2 / 2 * sigma ** 2)
+
+
 def main():
     initial_values = 100 * np.random.rand(2)
     optimal_coefficients = fmin(neg_f, initial_values)
     print('Result:\n\texpected value =', optimal_coefficients[0], '\n\tstandard deviation =', optimal_coefficients[1])
-    plt.figure(figsize=(12, 9))
-    plt.plot(data, np.zeros(len(data)), 'ob', alpha=0.1, label='data (living space area [m2])')
-    plt.plot(data, stats.norm.pdf(data, optimal_coefficients[0], optimal_coefficients[1]), '.k',
-             label='normal distribution of data')
-    plt.legend()
+
+    lin = np.linspace(min(data), max(data), 1100)
+    fig, axs = plt.subplots(2)
+    plt.tight_layout()
+    axs[0].plot(data, np.zeros(len(data)), 'bo', alpha=0.1)
+    axs[0].plot(lin, stats.norm.pdf(optimal_coefficients[0], optimal_coefficients[1], lin))
+    axs[1].hist(data, alpha=0.6, rwidth=0.95)
     plt.show()
 
 
