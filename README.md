@@ -13,6 +13,6 @@ clone this git repository
 ### Least squares
 ![least_squares_fitting](/media/least_squares_fitting.png)
 ### Maximum likelihood estimation
-![maximum likelihood estimation](/media/maximum_likelihood_estimation.png)
+
 ### Kernel density estimation
 ### Data
