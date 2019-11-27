@@ -4,12 +4,14 @@ import scipy.stats as stats
 
 
 def probability_density(mi, sigma, x):
-    return (1 / (np.sqrt(2 * np.pi * sigma ** 2))) * np.exp(-(x - mi) ** 2 / 2 * sigma ** 2)
+    part1 = 1 / np.sqrt(2 * np.pi * sigma ** 2)
+    part2 = np.exp(-1 / (2 * sigma ** 2) * (x - mi) ** 2)
+    return part1 * part2
 
 
 mi = 0
-sigma = 3
-lin = np.linspace(-5 * sigma, 5 * sigma, 10000)
+sigma = 19
+lin = np.linspace(-100, 100, 100000)
 plt.plot(lin, probability_density(mi, sigma, lin))
 plt.show()
 
