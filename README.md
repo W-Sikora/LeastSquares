@@ -16,4 +16,4 @@ Clone this git repository.
 ### Kernel density estimation
 ![kernel_density_estimation.py.png](/media/kde.png)
 ### Data
-The data show areas and prices of flats located in Lubuskie Voivodeship in the western part of Poland (data in ".xlsx" format).
+The data show areas and prices of flats located in Lubusz Voivodeship in the western part of Poland (data in ".xlsx" format).
