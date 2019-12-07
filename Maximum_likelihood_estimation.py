@@ -6,8 +6,7 @@ from scipy.optimize import fmin
 
 
 def get_data(file_name, sheet):
-    data = pd.read_excel(file_name, sheet)
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(pd.read_excel(file_name, sheet))
     length = np.array(df.values).shape[0]
     column = []
     for item in range(length):

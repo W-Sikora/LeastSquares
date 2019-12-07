@@ -6,8 +6,7 @@ from numpy.linalg import inv
 
 
 def get_data(file_name, sheet):
-    data = pd.read_excel(file_name, sheet)
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(pd.read_excel(file_name, sheet))
     length = np.array(df.values).shape[0]
     column_0, column_1, column_2 = ([] for i in range(3))
     for item in range(length):
