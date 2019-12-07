@@ -59,7 +59,7 @@ def main():
 
     # charts
     arguments = np.linspace(min(data), max(data), 1100)
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(12, 7))
     plt.plot(data, np.zeros(len(data)), 'o', color='royalblue', alpha=0.15, label='data (living space area [m2])')
     plt.plot(arguments, probability_density(optimal_coefficients[0], optimal_coefficients[1], arguments),
              label='normal distribution for data', color='black')

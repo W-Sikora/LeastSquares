@@ -17,13 +17,13 @@ def main(h):
 data = get_data('data/residential_premises.xlsx', 'data')
 margin = 7
 u = np.linspace(min(data) - margin, max(data) + margin, 10000)
-# szerokość okna
-h = np.array([0.4, 0.8, 1, 1.4])
+# window width
+h = np.array([0.4, 1, 1.6])
 
-plt.figure(figsize=(15, 8))
+plt.figure(figsize=(12, 7))
+plt.plot(data, np.zeros(len(data)), 'o', color='royalblue', alpha=0.15, label='data (living space area [m2])')
 for i in range(len(h)):
     f = 1 / (len(data) * h[i]) * main(h[i])
-    plt.plot(data, np.zeros(len(data)), 'o', color='royalblue', alpha=0.15)
     plt.plot(u, f, label=h[i])
     plt.legend()
 plt.show()

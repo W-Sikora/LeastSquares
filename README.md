@@ -11,8 +11,9 @@ Statistical methods applied to build mathematical models of dynamical systems fr
 clone this git repository
 ## Results
 ### Least squares
-![least_squares_fitting](/media/least_squares_fitting.png)
+![least_squares_fitting](/media/mls.png)
 ### Maximum likelihood estimation
-![maximum_likelihood_estimation.png](/media/maximum_likelihood_estimation.png)
+![maximum_likelihood_estimation.png](/media/mle.png)
 ### Kernel density estimation
+![kernel_density_estimation.py.png](/media/kde.png)
 ### Data
