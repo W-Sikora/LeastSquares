@@ -13,7 +13,9 @@ Statistical methods applied to build mathematical models of dynamical systems fr
 Clone this git repository.
 
 ### Least squares
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;
+Y = AU + \epsilon\\a
+/>
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
