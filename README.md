@@ -20,7 +20,7 @@ Clone this git repository.
 <img src="https://render.githubusercontent.com/render/math?math=S(A)=E^TE=(Y-UA)^T(Y-UA)=(Y^T-A^TU^T)(Y-UA)=Y^TY-Y^TUA-A^TU^TY%2BA^TU^TUA">
 The transposition of scalars or the order of multiplication does not affect the result, so:
 <img src="https://render.githubusercontent.com/render/math?math=Y^TUA=A^TU^TY">
-<img src="https://render.githubusercontent.com/render/math?math=S(A)=Y^TY-2A^TX^TU %2 A^TU^TUA">
+<img src="https://render.githubusercontent.com/render/math?math=S(A)=Y^TY-2A^TX^TU %B2 A^TU^TUA">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
