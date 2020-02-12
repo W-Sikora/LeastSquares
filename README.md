@@ -16,7 +16,7 @@ Clone this git repository.
 <img src="https://render.githubusercontent.com/render/math?math=Y = AU %2B E">
 <img src="https://render.githubusercontent.com/render/math?math=\hat{Y} = AU">
 <img src="https://render.githubusercontent.com/render/math?math=E = Y - \hat{Y}">
-<img src="https://render.githubusercontent.com/render/math?math=min%20\sum_{i=1}^{N}(e_i^2)">
+<img src="https://render.githubusercontent.com/render/math?math=min %20 \sum_{i=1}^{N}(e_i)^2">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
