@@ -21,6 +21,7 @@ Clone this git repository.
 The transposition of scalars or the order of multiplication does not affect the result, so:
 <img src="https://render.githubusercontent.com/render/math?math=Y^TUA=A^TU^TY">
 <img src="https://render.githubusercontent.com/render/math?math=S(A)=Y^TY-2A^TU^TY %2B A^TU^TUA">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial S(A)}{\partial A}=\frac{\partial}{\partial A}Y^TY-2A^TU^TY %2B A^TU^TUA">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
