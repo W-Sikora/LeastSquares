@@ -18,7 +18,8 @@ Clone this git repository.
 <img src="https://render.githubusercontent.com/render/math?math=E = Y - \hat{Y}">
 <img src="https://render.githubusercontent.com/render/math?math=min%20 S = \sum_{i=1}^{N}(e_i)^2=(y_i-\hat{y}_i)^2">
 <img src="https://render.githubusercontent.com/render/math?math=S=E^TE=(Y-UA)^T(Y-UA)=(Y^T-A^TU^T)(Y-UA)=Y^TY-Y^TUA-A^TU^TY%2BA^TU^TUA">
-a
+The transposition of scalars or the order of multiplication does not affect the result, so:
+<img src="https://render.githubusercontent.com/render/math?math=Y^TUA=A^TU^TY">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
