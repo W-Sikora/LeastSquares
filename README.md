@@ -15,6 +15,7 @@ Clone this git repository.
 ### Least squares
 <img src="https://render.githubusercontent.com/render/math?math=Y = AU %2B E">
 <img src="https://render.githubusercontent.com/render/math?math=\hat{Y} = AU">
+<img src="https://render.githubusercontent.com/render/math?math=\sum_{n=1}^{\infty}">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
