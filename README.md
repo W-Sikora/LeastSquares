@@ -13,10 +13,7 @@ Statistical methods applied to build mathematical models of dynamical systems fr
 Clone this git repository.
 
 ### Least squares
-<img src="https://render.githubusercontent.com/render/math?math=Y = AU + \Epsilon">
-~~~math
-((n(n+1))/2)^2
-~~~
+<img src="https://render.githubusercontent.com/render/math?math=Y = AU + E\\\hat{Y}">
 ![least_squares_fitting](/media/mls.png)
 
 ### Maximum likelihood estimation
