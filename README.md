@@ -24,10 +24,10 @@ The transposition of scalars or the order of multiplication does not affect the 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial S(A)}{\partial A}=\frac{\partial}{\partial A}Y^TY-\frac{\partial}{\partial A}2A^TU^TY %2B \frac{\partial}{\partial A}A^TU^TUA">
 <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial S(A)}{\partial A}= 0 - 2U^TY %2B 2U^TUA">
 <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial S(A)}{\partial A}= 0">
-<img src="https://render.githubusercontent.com/render/math?math=- 2U^TY %2B 2U^TUA = 0">
-<img src="https://render.githubusercontent.com/render/math?math=- U^TY %2B U^TUA = 0">
-<img src="https://render.githubusercontent.com/render/math?math= U^TUA = U^TY">
-<img src="https://render.githubusercontent.com/render/math?math= A=(U^TU)^{-1}U^TY">
+<img src="https://render.githubusercontent.com/render/math?math=-2U^TY %2B 2U^TUA = 0">
+<img src="https://render.githubusercontent.com/render/math?math=-U^TY %2B U^TUA = 0">
+<img src="https://render.githubusercontent.com/render/math?math=U^TUA = U^TY">
+<img src="https://render.githubusercontent.com/render/math?math=A=(U^TU)^{-1}U^TY">
 
 ![least_squares_fitting](/media/mls.png)
 
