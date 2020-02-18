@@ -13,9 +13,11 @@ Statistical methods applied to build mathematical models of dynamical systems fr
 Clone this git repository.
 
 ### Least squares
-The method of [least squares](https://en.wikipedia.org/wiki/Least_squares "least squares") is a standard approach in regression analysis to approximate the solution of overdetermined systems[^2] (sets of equations in which there are more equations than unknowns) by minimizing the sum of squared residuals (the difference between an observed value, and the fitted value provided by a model).
+The method of [least squares](https://en.wikipedia.org/wiki/Least_squares "least squares") is a standard 
+approach in regression analysis to approximate the solution of [overdetermined systems](https://en.wikipedia.org/wiki/Overdetermined_system
+"overdetermined system") (sets of equations in which there are more equations than unknowns) by minimizing the sum 
+of squared residuals (the difference between an observed value, and the fitted value provided by a model).
 
-[2^]: https://en.wikipedia.org/wiki/Overdetermined_system
 
 <img src="https://render.githubusercontent.com/render/math?math= Y = AU + E \\ \hat{Y} = AU \\ E = Y - \hat{Y}">
 <img src="https://render.githubusercontent.com/render/math?math=S(A)=E^TE=(Y-UA)^T(Y-UA)=(Y^T-A^TU^T)(Y-UA)=Y^TY-Y^TUA-A^TU^TY%2BA^TU^TUA">
