@@ -18,6 +18,7 @@ approach in regression analysis to approximate the solution of [overdetermined s
 "overdetermined system") (sets of equations in which there are more equations than unknowns) by minimizing the sum 
 of squared residuals (the difference between an observed value, and the fitted value provided by a model).
 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 <img src="https://render.githubusercontent.com/render/math?math= Y = AU + E \\ \hat{Y} = AU \\ E = Y - \hat{Y}">
 <img src="https://render.githubusercontent.com/render/math?math=S(A)=E^TE=(Y-UA)^T(Y-UA)=(Y^T-A^TU^T)(Y-UA)=Y^TY-Y^TUA-A^TU^TY%2BA^TU^TUA">
